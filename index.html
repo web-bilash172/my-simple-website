@@ -11,27 +11,37 @@
 <body>
     <!-- navbar -->
     <nav class="navbar">
-        <h1 class="logo">ADVENTURE</h1>
+        <h1 class="logo">Travello</h1>
         <ul class="nav-links">
-            <li><a href="#"></a>Home</li>
+            <li class="active"><a href="#"></a>Home</li>
             <li><a href="#"></a>Tours</li>
             <li><a href="#"></a>Explore</li>
             <li><a href="#"></a>About</li>
-            <li><a href="#"></a>Contact</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
         </ul>
+        <img src="/images/menu.png" alt="" class="menu-btn">
     </nav>
     <header>
         <div class="header-content">
-            <h2>Travel the world with SAJED</h2>
+            <h2>Travel the world with Travello</h2>
             <div class="line">
 
             </div>
             <h1>
-                Explore the Nature
+                Explore The Nature
             </h1>
             <a href="#" class="ctn">Learn More</a>
         </div>
     </header>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+    
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu');
+        });
+    </script>
+    
 </body>
 
 </html>
