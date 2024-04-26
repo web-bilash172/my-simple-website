@@ -54,6 +54,7 @@ a{
 .header-content{
     margin-bottom: 150px;
     color: whitesmoke;
+    
 }
 .header-content h2{
     font-size: 4vmin;
@@ -70,11 +71,20 @@ a{
     margin-top: 50px;
     margin-bottom: 30px;
 }
+.header-content .ctn{
+    margin-left: 100px;
+    font-size: 2vmin;
+    width: 90px;
+    height: 30px;
+}
 .ctn{
    padding: 8px 15px;
    background:rgb(255, 69, 69) ; 
    border-radius: 30px;
    color: whitesmoke;
+   align-items: center;
+   margin: 10px;
+
 }
 .menu-btn{
     position: absolute;
@@ -84,6 +94,60 @@ a{
     cursor: pointer;
     display: none;
 }
+/* events */
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin; 
+    color: rgb(27, 27, 247);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between; /* Changed to space-around for equal spacing */
+}
+
+.col {
+    flex-basis: 45%; /* Adjusted flex-basis to fit two columns */
+}
+
+.col img {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+h4 {
+    font-size: 3vmin;
+    color: rgb(68, 68, 88);
+    margin: 20px auto;
+}
+
+p {
+    color: rgb(74, 74, 74);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ctn {
+    display: block;
+    text-align: center;
+    font-size: 2.2vmin;
+    width: 90px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+
 
 /* Mobile device */
 @media only screen and (max-width:850px){
