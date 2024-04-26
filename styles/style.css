@@ -266,4 +266,96 @@ p {
 .nav-links li{
     margin: 30px auto;
 }
+/* Header */
+.header-content {
+    margin-bottom: 5vh;
 }
+
+.header-content h2 {
+    font-size: 8vw;
+}
+
+.header-content h1 {
+    font-size: 12vw;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+.header-content .ctn {
+    margin-top: 3vh;
+}
+
+/* Events */
+.row {
+    margin-top: 5vh;
+    flex-direction: column;
+}
+
+.col {
+    flex-basis: 90%;
+    margin-bottom: 5vh;
+}
+
+.col img {
+    border-radius: 2vh;
+}
+
+h4 {
+    font-size: 7vw;
+}
+
+p {
+    font-size: 5vw;
+    width: 90%;
+}
+
+.ctn {
+    font-size: 4vw;
+    width: 50%;
+}
+
+/* Explore */
+.explore-content {
+    padding: 8vw;
+}
+
+.explore-content h1 {
+    font-size: 12vw;
+}
+
+.explore-content .line {
+    margin-bottom: 3vh;
+}
+
+.explore-content p {
+    font-size: 5vw;
+}
+
+.explore-content .ctn {
+    margin-top: 4vh;
+}
+
+/* Tours */
+.content-col h1 {
+    font-size: 8vw;
+}
+
+.content-col p {
+    font-size: 5vw;
+    margin: 3vh 0;
+}
+
+.image-gallary img {
+    width: 40%;
+    max-width: 100px;
+    height: auto;
+    margin: 2vw;
+}
+
+/* Footer */
+.footer p {
+    font-size: 4vw;
+    margin: 2vh auto;
+    padding: 1.5vh auto;
+}
+} 
