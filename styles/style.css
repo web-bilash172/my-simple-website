@@ -43,7 +43,7 @@ body,html{
 header{
     width: 100vw;
     height: 100vh;
-    background-image: url(/images/mountain-view.jpg);
+    background-image: url(images/mountain-view.jpg);
     background-position: bottom;
     background-size: cover;
     display: flex;
