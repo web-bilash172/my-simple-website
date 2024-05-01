@@ -43,7 +43,7 @@ body,html{
 header{
     width: 100vw;
     height: 100vh;
-    background-image: url(images/mountain-view.jpg);
+    background-image: url(/images/mountain-view.jpg);
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -162,7 +162,7 @@ p {
 .explore{
     width: 100%;
     height: 100vh;
-    background-image: url(images/explore\ the\ world.png);
+    background-image: url(/images/explore\ the\ world.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
